@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="mystyle/restaurantStyle.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+	@keyframes animatePatternRTL {
+		0% {
+			margin-left: -10px;
+		}
+		100% {
+			margin-right: -100px;
+		}
+	}
+
+	@keyframes animatePatternLTR {
+		0% {
+			margin-right: 80px;
+		}
+		100% {
+			margin-left: -100px;
+		}
+	}
+
+	.pattern1 {
+		animation: animatePatternLTR 3s infinite;
+		animation-direction: alternate-reverse;
+	}
+
+	.pattern2 {
+		animation: animatePatternRTL 3s infinite;
+		animation-direction: alternate-reverse;
+	}
+	.cloud img
+	{
+		width:17em;
+		height: auto;
+		z-index: 2;
+	}
+	</style>
+</head>
+
+<body>
+
+	<img src = "background5.jpg" style = "z-index: 0;position: absolute; width: 100%; height: 160%; margin-top: -5em;">
+	<div class = "login-page">
+		<img src = "Shintasaya-Logo.png" style="width:fit-content;height:55px;">
+		<h1>Login </h1>
+		<button class="fas fa-user-alt" onclick="showLoginForm()" value="Click me!"></button>
+
+		<form action="authentication.php" method="post" id="loginForm">
+			<div class=login>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username"><br>
+				<div id="usernameError" class="error"></div>
+			</div>
+			<div class=login>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<div class=login>
+				<div id="passwordError" class="error"></div>
+				<label for="show-password">
+					<input type="checkbox" id="show-password" onchange="togglePassword()"> Show Password
+				</label><br> 
+			</div>
+			<div class = submit>
+				<input class="submit-button" type="submit" value="Login" name="login">
+			</div>
+			<hr>
+			<p class="hint-text">Sign in with social media account</p>
+			<div class="signInSocialAcc">
+				<a href="https://www.facebook.com/" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
+				<a href="https://twitter.com/?lang=en" class="btn btn-info pull-right"><i class="fa fa-twitter"></i> Twitter</a>
+			</div>
+			<div class = "register">
+				<a href="register.php">Sign up to enjoy the meal</a>
+			</div>
+		</form>
+		<div class="pattern1" >
+			<div class="cloud"><img src = "pattern.png" style="width:20em; height:auto;"></div>
+		</div>
+
+		<div class="pattern2" style = "float:right;">
+			<div class="cloud"><img src = "pattern.png"></div>
+		</div>	
+	</div>
+	
+	<script src="javaScript/loginFormFunction.js"></script>
+</body>
+
+</html>
+
