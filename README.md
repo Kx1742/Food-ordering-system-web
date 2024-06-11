@@ -1,28 +1,27 @@
 # Food-ordering-system
-Web application for food ordering
-Online Food Delivery System for Japanese Cuisine
-Welcome to our online food delivery system, focused on delivering delicious Japanese cuisine right to your doorstep! Our aim is to create a sleek, simple, and easy-to-use website that allows you to easily view and order your favorite dishes at your leisure.
-Features
-Our website comes packed with features to make your ordering experience a breeze, including:
-•	A home page that provides an overview of the website's content and features, including popular dishes, our team and customer reviews.
-•	A dishes page that allows users to view special dishes today.
-•	A navigation menu that allows users to access all pages on the website, including the home, menu, contact page, about us, dishes page, icon for logout and their cart on the top of each page.
-•	An about us page that shows the details of our restaurant including environment and operation time.
-•	A contact page that includes a contact form and contact information, making it easy to get in touch with our team if you have any questions or concerns.
-•	A menu page that displays a list of our delicious Japanese dishes, complete with mouth-watering photos, descriptions, ratings, and prices.
-•	A dish details page that allows users to view more information about a particular dish, including its ingredients and allergen information. From here, users can add the dish to their cart.
-•	A cart page that allows users to view all the items they have added and proceed to checkout or save items for later or even delete the food and clear cart when they change their mind. 
-•	A checkout page that allows users to enter their personal details and address for delivery.
-•	A make payment page that allows users to make payment using credit/debit card.
-•	A login page that requires users to sign in or register new account before accessing other web pages.
-•	Responsive design pages which function properly on various devices, including desktop computers, laptops, tablets, and smartphones with different screen size.
-Our website is designed with simplicity and convenience in mind, so you can quickly and easily order your favorite Japanese dishes from the comfort of your own home.
-Getting Started
-Get started by following step below:
-•	Import db.sql to PHP myadmin
-•	Import db2.sql to PHP myadmin
-•	Import foodrestaurant.sql to PHP myadmin
-•	Copy and paste everything in ‘Group 7_Wong Ke Xin_2001293/webassignment’ into wamp64/www/
-•	In the browser, go to: localhost/login.php
-To get started, simply create an account on our website and start browsing our menu after signing in. When you've found the perfect dish, simply add it to your cart, review your order, and checkout securely using your credit/debit payment method. Our delivery service will then bring your order straight to your door, so you can sit back and enjoy a delicious Japanese meal in the comfort of your own home.
 
+## Description
+This is a web application for food ordering, focusing on delivering delicious Japanese cuisine to customers' doorsteps. The system provides a sleek, simple, and easy-to-use interface for users to view and order their favorite dishes at their leisure.
+
+## Features
+- Home Page: Overview of website's content, including popular dishes, team information, and customer reviews.
+- Dishes Page: Displays special dishes available for the day.
+- Navigation Menu: Allows access to all pages on the website, including home, menu, contact, about us, dishes, logout, and cart.
+- About Us Page: Details about the restaurant, including environment and operation time.
+- Contact Page: Contact form and information to get in touch with the team.
+- Menu Page: List of Japanese dishes with photos, descriptions, ratings, and prices.
+- Dish Details Page: More information about a dish, including ingredients and allergen information, with the option to add to cart.
+- Cart Page: Displays items added to the cart, with options to proceed to checkout, save for later, or delete items.
+- Checkout Page: Allows users to enter personal details and address for delivery.
+- Payment Page: Allows users to make payment using credit/debit card.
+- Login Page: Required for accessing other web pages.
+- Responsive Design: Pages function properly on various devices, including desktop computers, laptops, tablets, and smartphones.
+
+## Getting Started
+To get started, follow these steps:
+1. Import `db.sql`, `db2.sql`, and `foodrestaurant.sql` to PHPMyAdmin.
+2. Copy and paste everything in 'Group 7_Wong Ke Xin_2001293/webassignment' into 'wamp64/www/'.
+3. In the browser, go to: `localhost/login.php`.
+4. Create an account, browse the menu, add dishes to your cart, review your order, and checkout securely using your credit/debit payment method.
+
+Enjoy your delicious Japanese meal delivered straight to your door!
